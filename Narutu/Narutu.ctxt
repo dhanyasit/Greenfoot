@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=Narutu
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Narutu\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=Narutu()
+comment10.params=
+comment10.target=void\ atk()
+comment2.params=
+comment2.target=void\ act()
+comment3.params=world
+comment3.target=void\ addedToWorld(greenfoot.World)
+comment4.params=
+comment4.target=void\ animateF()
+comment5.params=
+comment5.target=void\ controlKey()
+comment6.params=
+comment6.target=void\ onGround()
+comment7.params=
+comment7.target=void\ fall()
+comment8.params=
+comment8.target=void\ jump()
+comment9.params=
+comment9.target=void\ gameOver()
+numComments=11

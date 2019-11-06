@@ -1,0 +1,41 @@
+import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+
+/**
+ * Write a description of class coin here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
+public class coin extends Actor
+{
+    /**
+     * Act - do whatever the coin wants to do. This method is called whenever
+     * the 'Act' or 'Run' button gets pressed in the environment.
+     */
+    public void act() 
+    {
+        setLocation(getX()-10, getY());
+        atk();
+    }    
+
+    public coin(){
+        GreenfootImage image = getImage();
+        image.scale(30,15);
+        setImage(image);
+    } 
+
+    public void atk(){
+        if((getOneIntersectingObject(tax.class) != null)){
+            getWorld().removeObject(this); 
+            World3.ultim+=1;
+        }else if(this.getX() == 0){
+            getWorld().removeObject(this); 
+        }else if(getOneIntersectingObject(Narutu.class) != null ){
+            getWorld().removeObject(this); 
+            World3.t--;
+        }else if(getOneIntersectingObject(NarutuEndless.class) != null){
+            getWorld().removeObject(this);
+            Endless.h--;
+        }
+    }
+}

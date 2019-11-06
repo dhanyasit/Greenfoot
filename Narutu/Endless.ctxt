@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Endless
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Endless\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=Endless()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Endless.\r\n\ \r\n
+comment2.params=
+comment2.target=void\ showText()
+comment3.params=
+comment3.target=void\ prepare()
+comment4.params=
+comment4.target=void\ act()
+comment5.params=
+comment5.target=void\ Tree()
+comment6.params=
+comment6.target=void\ realprem()
+comment7.params=
+comment7.target=void\ GameOver()
+numComments=8
